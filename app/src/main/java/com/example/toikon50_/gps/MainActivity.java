@@ -64,10 +64,6 @@ public class MainActivity extends Activity implements LocationListener {
         TextView tv_lng = (TextView) findViewById(R.id.Longitude);
         tv_lng.setText("Latitude:"+location.getLongitude());
 
-        //高度
-        TextView tv_ati = (TextView) findViewById(R.id.Altitude);
-        tv_ati.setText("Altitude:"+location.getAltitude());
-
 
     }
 
