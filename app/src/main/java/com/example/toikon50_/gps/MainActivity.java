@@ -39,7 +39,7 @@ public class MainActivity extends Activity implements LocationListener {
         TextView tv_provider = (TextView) findViewById(R.id.Provider);
         tv_provider.setText("Provider: " + provider);
 
-        // LocationListenerを登録
+        // LocationListenerを登録//
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
